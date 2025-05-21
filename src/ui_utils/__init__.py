@@ -5,6 +5,7 @@ from .clipboard import clipboard_copy, clipboard_paste
 from .hud_message import show_hud_message
 from .option_box import OptionBox, OptionBoxButton
 from .reorder_box import ReorderBox
+from .reward_message import show_reward_message
 from .training_box import EBackButtonScreen, TrainingBox
 
 __all__: tuple[str, ...] = (
@@ -20,6 +21,7 @@ __all__: tuple[str, ...] = (
     "clipboard_paste",
     "show_chat_message",
     "show_hud_message",
+    "show_reward_message",
 )
 
 __version_info__: tuple[int, int] = (1, 3)
